@@ -1,2 +1,2 @@
-import './style.css'
-import './js/page.js'
+import './main.css'
+import './js/components.js'
