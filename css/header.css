@@ -65,7 +65,7 @@
         padding-top: 8px;
         padding-bottom: 8px;
         margin-top: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .header-popups-wrapper {
@@ -73,12 +73,12 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        gap: 8rem;
+        gap: 10rem;
     
     }
 
     .header-popups-icon-svg {
-        height: 10px;
+        height: 18px;
         width: 18;
         fill: var(--secondary-color);
     
@@ -88,12 +88,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 8px;
-        margin-top: 10px;
+        padding-top: 20px;
+        margin-top: 20px;
     }
 
     .logo-img {
-        max-height: 40px;
+        height: 60px;
         width: auto;
     }
 
