@@ -1,25 +1,12 @@
 .footer {
-    height: 25vh;
-    width: 100%;
-}
-
-.social-links-bar {
-    height: 50%;
+    min-height: 40px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.social-links-icons {
-    height: 40px;
-    width: 40px;
-    fill: var(--black-text-color);
-}
-
 .copyright {
-    height: 50%;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
