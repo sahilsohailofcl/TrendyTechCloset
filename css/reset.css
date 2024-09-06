@@ -18,23 +18,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, #684fb7, #e6326f, #2384cb, #684fb7, #e6326f, #2384cb);
-    background-size: 400% 400%;
-    box-sizing: border-box;
-    overflow: hidden;
-    animation: primaryGradient 5s ease infinite;
-}
-
-@keyframes primaryGradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+    background: var(--secondary-color);
 }
 
 .container {
