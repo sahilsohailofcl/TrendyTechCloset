@@ -1,9 +1,9 @@
 .main {
-    min-height: 50vh;
+    height: 50vh;
     width: 100%;
 }
 
-.affiliate-links-container {
+.affiliate-links {
     height: 100%;
     width: 100%;
     display: flex;
@@ -11,20 +11,18 @@
     align-items: center;
 }
 
-.affiliate-links-wrapper {
+.affiliate-links-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding: 20px 0;
-    margin: 20px 0;
 }
 
 .affiliate-links-items {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--primary-color);
     text-align: center;

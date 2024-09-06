@@ -3,8 +3,16 @@
     width: 100%;
 }
 
-.header-container {
-    height: 100%;
+.header-popups {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-branding {
+    height: 50%;
     width: 100%;
     display: flex;
     justify-content: center;
