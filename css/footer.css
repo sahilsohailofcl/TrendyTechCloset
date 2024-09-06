@@ -4,6 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 8px;
+    margin-top: 10px;
 }
 
 .copyright {
@@ -14,7 +16,7 @@
 
 .copyright-txt {
     font-family: var(--font-body);
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     color: var(--black-text-color);
 }
