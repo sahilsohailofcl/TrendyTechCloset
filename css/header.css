@@ -7,10 +7,16 @@
     height: 50%;
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
+.header-popups-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
 .header-branding {
     height: 50%;
     width: 100%;
