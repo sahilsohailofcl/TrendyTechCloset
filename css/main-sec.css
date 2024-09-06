@@ -64,3 +64,13 @@
     width: 20px;
     fill: var(--secondary-color);
 }
+
+@media only screen and (max-width: 768px) {
+   
+    .affiliate-links-items {
+        min-width: 400px;
+        border-radius: 40px;
+        padding: 0 20px;
+    }
+
+  }
