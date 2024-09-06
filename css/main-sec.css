@@ -1,0 +1,42 @@
+.main {
+    min-height: 200px;
+    width: 100%;
+}
+
+.affiliate-links-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.affiliate-links-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.affiliate-links-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    border-radius: 40px;
+    padding: 0 20px;
+}
+
+.affiliate-links-items-txt {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: var(--font-body);
+    color: var(--black-text-color);
+}

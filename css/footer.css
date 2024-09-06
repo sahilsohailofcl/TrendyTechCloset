@@ -1,0 +1,24 @@
+.social-links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links-icons {
+    height: 40px;
+    width: 40px;
+    fill: var(--black-text-color);
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-txt {
+    font-family: var(--font-body);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--black-text-color);
+}
