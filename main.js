@@ -1,2 +1,1 @@
-import './main.css'
-import './js/share-link.js'
+import './js/share-link.js';
