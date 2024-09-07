@@ -1,2 +1,2 @@
 import './main.css'
-import './js/components.js'
+import './js/share-link.js'
