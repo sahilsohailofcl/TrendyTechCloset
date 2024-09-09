@@ -49,18 +49,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const email = document.getElementById('email').value;
 
     try {
-      const response = await fetch('http://localhost:3000/submit-email', {
+      const response = await fetch('https://script.google.com/macros/s/AKfycbw1w24cH6TjzFQnKfdqtVzzeJhTyUs4YvY8ABP2BOqX1bSNSWNzIdd4kHoa78HxiSSJAQ/exec', {
         method: 'POST',
+        mode: 'no-cors', // Since we are posting to a Google Script
         headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'application/x-www-form-urlencoded',
         },
-        body: JSON.stringify({ email }),
+        body: `email=${encodeURIComponent(email)}`,
       });
 
-      const result = await response.text();
-      alert(result);
+      alert('Email submitted successfully!');
     } catch (error) {
       console.error('Error:', error);
-      alert('Failed to save email.');
+      alert('Failed to submit email.');
     }
   });
