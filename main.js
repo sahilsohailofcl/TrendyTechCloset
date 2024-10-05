@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Send the email to your Google Apps Script
         try {
-            const response = await fetch('https://script.google.com/macros/s/AKfycbySk9u9GG2iG5jfgEingZyddMchbmx_N30HexiVaEarcN9zCuqW7YOAdrzUspXz5XcN7g/exec', {
+            const response = await fetch('https://script.google.com/macros/s/AKfycbxDm8AcI9Fj9ec4sO8rEtT40uayLhOj5kw35pIM3cbx77UygehcZXI-TgOKsjVulHqA3Q/exec', {
                 method: 'POST',
                 mode: 'no-cors', // Use no-cors if you are facing CORS issues
                 headers: {
