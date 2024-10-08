@@ -38,7 +38,7 @@
 /* Header__Section */
 
 .header {
-    min-height: 120px;
+    height: auto;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -263,8 +263,7 @@ button {
 /* Main__Section */
 
 .main {
-    max-height: 500px;
-    height: 100%;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -338,7 +337,7 @@ button {
 /* Footer__Section */
 
 .footer {
-    min-height: 40px;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -465,8 +464,8 @@ button {
     .popup-content {
         height: 430px;
         width: 100%;
-        position: sticky;
-        top: 60%;
+        position: absolute;
+        bottom: 0;
         background-color: white;
         padding: 20px;
         border-radius: 8px;
